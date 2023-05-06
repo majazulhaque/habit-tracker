@@ -23,7 +23,7 @@ module.exports.habitsPage = async (req, res) => {
     });
     
   } catch (error) {
-    console.log('Error while render',err);
+    console.log('Error while render',error);
     return;
   }
 
